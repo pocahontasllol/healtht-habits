@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5c5c5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #C1DFCF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #666;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    height: 400px;
+    padding: 20px;
+}
+
+.split-section {
+    display: flex;
+}
+.left-zone {
+    width: 50%;
+    padding-right: 20px;
+}
+.right-zone {
+    width: 50%;
+}
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+form h3 {
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+form select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #555;
+}
+footer {
+    background-color: #C1DFCF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
